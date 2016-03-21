@@ -24,7 +24,8 @@ In a new directory, generate the service:
 
 Install dependencies for Mono:
 
-    mono paket.exe restore
+    cd my-suave-microservice
+    mono ./tools/paket.exe restore
 
 Run the service for Mono:
 
